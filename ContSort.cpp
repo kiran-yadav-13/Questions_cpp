@@ -49,6 +49,11 @@ void radix<t>::radixsort(t arr[],int n)
 }
 int main()
 {
+
+// int arr[]={170,230,134,67,234,876,900,1009,688};
+ // int n;
+//  n= sizeof(arr)/ sizeof(arr[0]);
+
   radix<int> r;
   int arr[40];
   int n;
@@ -58,9 +63,7 @@ int main()
     cin>>arr[i];
   
   }
- // int arr[]={170,230,134,67,234,876,900,1009,688};
- // int n;
-//  n= sizeof(arr)/ sizeof(arr[0]);
+ 
   cout<<"\n unsorted Array is: ";
   r.print(arr,n);
   r.radixsort(arr,n);
