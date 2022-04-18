@@ -209,7 +209,7 @@ int main()
     LowerTri<int> L(size);
     Symmetric<int> S(size);
     do{
-        cout<<"------------MENU------------"<<endl;
+  //      cout<<"------------MENU------------"<<endl;
         cout<<"1. Diagonal"<<endl;
         cout<<"2. LowerTriangular"<<endl;
         cout<<"3. UpperTriangular"<<endl;
